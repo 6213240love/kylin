@@ -1,6 +1,6 @@
 stage 'build'
 node {
-	git 'https://github.com/fancapital/myhelloworld.git'
+	git 'https://github.com/6213240love/kylin.git'
 	sh '''
 		tag=`git tag`
 		imageid=`ssh root@192.168.0.1 docker images | grep myhelloworld | awk '{print $3}'`
