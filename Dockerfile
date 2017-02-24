@@ -1,4 +1,4 @@
-FROM ubuntu1204-base:latest
+FROM ubuntu:16.04
 
 # --------------------------------------------------
 WORKDIR /opt/myhelloworld
