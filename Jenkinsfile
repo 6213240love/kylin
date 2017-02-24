@@ -2,7 +2,7 @@ stage 'build'
 node {
 	git 'https://github.com/6213240love/kylin.git'
 	sh '''
-		tag=`git tag`
+		tag=`git tag|tail -n 1`
 		imageid=`ssh root@192.168.0.1 docker images | grep myhelloworld | awk '{print $3}'`
 		tar zcvf myhelloworld.tar.gz *
 		scp myhelloworld.tar.gz root@192.168.0.1:/home/item/
