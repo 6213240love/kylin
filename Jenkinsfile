@@ -19,6 +19,7 @@ node {
 		From:Jenkins <948909815@qq.com>
 		To: yachuan.an@fancapital.com
 		Cc: yachuan.an@fancapital.com
+		Bcc: yachuan.an@fancapital.com
 		Subject: test mail
 
 		---------------------
