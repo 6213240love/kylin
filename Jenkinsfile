@@ -16,7 +16,7 @@ node {
 	sh '''
 		tag=`git tag|tail -n 1`
 		/usr/sbin/sendmail -t <<EOF
-		From: Jenkins <yachuan.an@fancapital.com>
+		From: Jenkins <948909815@qq.com>
 		To: yachuan.an@fancapital.com
 		Cc: yachuan.an@fancapital.com
 		Sbuject: test mail
