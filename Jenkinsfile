@@ -14,7 +14,7 @@ node {
 stage 'Mail'
 node {
 	sh '''
-		tag=`git tag|tail -n 1`
+	#	tag=`git tag|tail -n 1`
 		/usr/sbin/sendmail -t <<EOF
 		From: Jenkins <948909815@qq.com>
 		To: yachuan.an@fancapital.com
@@ -23,7 +23,7 @@ node {
 
 		---------------------
 		Date:$(date +%Y%m%d)
-		git Tag:$tag
+	#	git Tag:$tag
 		---------------------
 		EOF
 	   '''
