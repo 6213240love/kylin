@@ -16,7 +16,7 @@ node {
 	sh '''
 tag=`git tag|tail -n 1`
 /usr/sbin/sendmail -t <<EOF
-From:Jenkins <948909815@qq.com>
+From:Jenkins <yachuan.an@fancapital.com>
 To:Anyachuan <yachuan.an@fancapital.com>
 Subject:test mail
 ---------------------
