@@ -2,8 +2,6 @@ stage 'build'
 node {
 	git 'https://github.com/fancapital/myhelloworld.git'
 	sh '''
-		sleep 120
-		git pull
 		make clean
 		make
 	    '''
